@@ -1,0 +1,16 @@
+{
+  "extends": "@parcel/config-default",
+  "transformers": {
+    "tsx:*.svg": [
+      "...",
+      "@parcel/transformer-svg-react"
+    ],
+    "tsx:*": [
+      "..."
+    ]
+  },
+  "reporters": [
+    "...",
+    "parcel-reporter-static-files-copy"
+  ]
+}
